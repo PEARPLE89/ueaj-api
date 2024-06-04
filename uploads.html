@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Télécharger le nouveau planning</title>
+</head>
+<body>
+    <h1>Télécharger le nouveau planning</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="planning">Sélectionnez le fichier PDF du nouveau planning :</label><br>
+        <input type="file" id="planning" name="planning" accept=".pdf"><br><br>
+        <input type="submit" value="Télécharger le planning">
+    </form>
+</body>
+</html>
